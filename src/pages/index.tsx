@@ -31,7 +31,7 @@ var status;
 
 
 export default function Profile() {
-  const baseApi = process.env.baseApi;
+        const baseApi = process.env.baseApi;
 
   const [isOpenChooseModal, setIsOpenChooseModal] = useState<boolean>(false);
   const [currentPoints, setCurrentPoints] = useState(0);
